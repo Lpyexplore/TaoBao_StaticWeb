@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘宝</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<!-- 顶部跟随搜索框      未完成-->
+	<div class="flow_search_box">
+		<div class="flow_con">
+			<div class="flow_logo"><a href="javastript:;"><img src="images/logo.png" alt="淘宝logo"></a></div>
+
+			<div class="flow_search">
+				<form action="javastript:;">
+
+					<div class="search_type clearfix">
+						<ul>
+							<li class="first_type clearfix"><span>宝贝</span></li>
+							<li class="second_type clearfix"><span>天猫</span></li>
+							<li class="third_type clearfix"><span>店铺</span></li>
+						</ul>
+					</div>
+
+					<div class="bd fl"></div>
+					<div class="text fl">
+						<input type="text" placeholder="搜索">
+					</div>
+					<div class="search_btn fl"><input type="button" value="搜索"></div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- 顶部 -->
+	<div class="menu_top">
+		<div class="menu">
+			<div class="m_top">
+				<ul class="left fl">
+					<li class="left_1">
+						<div class="visib">
+							<span>中国大陆</span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<ul>
+								<li>全球</li>
+								<li>中国大陆</li>
+								<li>中国香港</li>
+								<li>中国台湾</li>
+								<li>中国澳门</li>
+								<li>韩国</li>
+								<li>马来西亚</li>
+								<li>澳大利亚</li>
+								<li>新加坡</li>
+								<li>新西兰</li>
+								<li>加拿大</li>
+								<li>美国</li>
+								<li>日本</li>
+							</ul>
+						</div>
+					</li>
+					
+
+					<li class="left_2"><a href="javastript:;">亲，请登录</a></li>
+					<li class="left_3"><a href="javastript:;">免费注册</a></li>
+					<li class="left_4"><a href="javastript:;">手机逛淘宝</a></li>
+				</ul>
+
+				<ul class="right fr">
+					<li class="right_1">
+						<div class="visib">
+							<span><a href="javastript:;">我的淘宝</a></span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<ul>
+								<li><a href="javastript:;">已买到的宝贝</a></li>
+								<li><a href="javastript:;">我的足迹</a></li>
+							</ul>
+						</div>
+					</li>
+
+
+					<li class="right_2">
+						<div class="visib">
+							<img src="" alt="">
+							<span><a href="javastript:;">购物车</a></span>
+							<span class="Num">0</span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<span class="fl">您的购物车里还没有任何宝贝。</span>
+							<input type="button" value="查看我的购物车" class="fl">
+						</div>
+					</li>
+
+
+					<li class="right_3">
+						<div class="visib">
+							<img src="" alt="">
+							<span><a href="javastript:;">收藏夹</a></span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<ul>
+								<li><a href="javastript:;">收藏的宝贝</a></li>
+								<li><a href="javastript:;">收藏的店铺</a></li>
+							</ul>
+						</div>
+					</li>
+
+
+					<li class="right_4">
+						<div class="visib">
+							<span><a href="javastript:;">商品分类</a></span>
+						</div>
+						
+					</li>
+
+					<span class="del">|</span>
+
+					<li class="right_5">
+						<div class="visib">
+							<span><a href="javastript:;">千牛卖家中心</a></span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<ul>
+								<li><a href="javastript:;">免费开店</a></li>
+								<li><a href="javastript:;">已卖出的宝贝</a></li>
+								<li><a href="javastript:;">出售中的宝贝</a></li>
+								<li><a href="javastript:;">卖家服务市场</a></li>
+								<li><a href="javastript:;">卖家培训中心</a></li>
+								<li><a href="javastript:;">体检中心</a></li>
+								<li><a href="javastript:;">问商友</a></li>
+							</ul>
+						</div>
+
+
+					</li>
+					<li class="right_6">
+						<div class="visib">
+							<span><a href="javastript:;">联系客服</a></span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							<ul>
+								<li><a href="javastript:;">消费者客服</a></li>
+								<li><a href="javastript:;">卖家客服</a></li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="right_7">
+						<div class="visib">
+							<span><img src="" alt=""></span>
+							<span><a href="javastript:;">网站导航</a></span>
+							<div class="v"></div>
+						</div>
+						<div class="hid">
+							
+
+							<div class="block block1">
+								<div class="title">主题市场</div>
+								<div class="list">
+									<ul>
+										<li><a href="javastript:;">女装</a></li>
+										<li><a href="javastript:;">男装</a></li>
+										<li><a href="javastript:;">内衣</a></li>
+										<li><a href="javastript:;">鞋靴</a></li>
+										<li><a href="javastript:;">箱包</a></li>
+										<li><a href="javastript:;">婴童</a></li>
+										<li><a href="javastript:;">家电</a></li>
+										<li><a href="javastript:;">数码</a></li>
+										<li><a href="javastript:;">手机</a></li>
+										<li><a href="javastript:;">美妆</a></li>
+										<li><a href="javastript:;">珠宝</a></li>
+										<li><a href="javastript:;">眼镜</a></li>
+										<li><a href="javastript:;">手表</a></li>
+										<li><a href="javastript:;">运动</a></li>
+										<li><a href="javastript:;">户外</a></li>
+										<li><a href="javastript:;">乐器</a></li>
+										<li><a href="javastript:;">游戏</a></li>
+										<li><a href="javastript:;">动漫</a></li>
+										<li><a href="javastript:;">影视</a></li>
+										<li><a href="javastript:;">美食</a></li>
+										<li><a href="javastript:;">鲜花</a></li>
+										<li><a href="javastript:;">宠物</a></li>
+										<li><a href="javastript:;">农资</a></li>
+										<li><a href="javastript:;">房产</a></li>
+										<li><a href="javastript:;">装修</a></li>
+										<li><a href="javastript:;">建材</a></li>
+										<li><a href="javastript:;">家居</a></li>
+										<li><a href="javastript:;">百货</a></li>
+										<li><a href="javastript:;">汽车</a></li>
+										<li><a href="javastript:;">二手车</a></li>
+										<li><a href="javastript:;">办公</a></li>
+										<li><a href="javastript:;">定制</a></li>
+										<li><a href="javastript:;">教育</a></li>
+										<li><a href="javastript:;">卡券</a></li>
+										<li><a href="javastript:;">本地</a></li>
+
+									</ul>
+								</div>
+							</div>
+
+
+
+							<div class="block block2">
+								<div class="title">特色市场</div>
+								<div class="list">
+									<ul>
+										<li><a href="javastript:;">全球购</a></li>
+										<li><a href="javastript:;">极有家</a></li>
+										<li><a href="javastript:;">阿里拍卖</a></li>
+										<li><a href="javastript:;">淘宝众筹</a></li>
+										<li><a href="javastript:;">飞猪</a></li>
+										<li><a href="javastript:;">农资</a></li>
+										<li><a href="javastript:;">天天特卖</a></li>
+										<li><a href="javastript:;">Outlets</a></li>
+										<li><a href="javastript:;">淘抢购</a></li>
+										<li><a href="javastript:;">试用</a></li>
+										<li><a href="javastript:;">量贩团</a></li>
+										<li><a href="javastript:;">阿里翻译</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+
+							<div class="block block3">
+								<div class="title">阿里APP</div>
+								<div class="list">
+									<ul>
+										<li><a href="javastript:;">淘宝</a></li>
+										<li><a href="javastript:;">天猫</a></li>
+										<li><a href="javastript:;">支付宝</a></li>
+										<li><a href="javastript:;">聚划算</a></li>
+										<li><a href="javastript:;">飞猪</a></li>
+										<li><a href="javastript:;">蚂蚁聚宝</a></li>
+										<li><a href="javastript:;">闲鱼</a></li>
+										<li><a href="javastript:;">淘小铺</a></li>
+										<li><a href="javastript:;">阿里钱盾</a></li>
+										<li><a href="javastript:;">钉钉</a></li>
+										<li><a href="javastript:;">高德地图</a></li>
+										<li><a href="javastript:;">虾米音乐</a></li>
+										<li><a href="javastript:;">淘票票</a></li>
+										<li><a href="javastript:;">菜鸟裹裹</a></li>
+										<li><a href="javastript:;">阿里云</a></li>
+										<li><a href="javastript:;">网商银行</a></li>
+										<li><a href="javastript:;">阿里邮箱</a></li>
+										<li><a href="javastript:;">阿里众包</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+
+							<div class="block block4">
+								<div class="title">精彩推荐集</div>
+								<div class="list">
+									<ul>
+										<li><a href="javastript:;">余额宝</a></li>
+										<li class="l"><a href="javastript:;">大牌捡宝</a></li>
+										<li><a href="javastript:;">淘公仔</a></li>
+										<li class="l"><a href="javastript:;">浏览器</a></li>
+										<li><a href="javastript:;">淘宝香港</a></li>
+										<li class="l"><a href="javastript:;">淘宝台湾</a></li>
+										<li><a href="javastript:;">淘宝全球</a></li>
+										<li class="l"><a href="javastript:;">淘宝东南亚</a></li>
+										<li><a href="javastript:;">闺蜜淘货</a></li>
+										<li class="l"><a href="javastript:;">大众评审</a></li>
+										<li><a href="javastript:;">淘工作</a></li>
+										<li class="l"><a href="javastript:;">阿里巴巴认证</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="adv_top"><a href="javastript;:"><img src="images/top_menu_adv.png" alt="顶部广告"></a></div>
+	</div>
+
+	<!-- 中部logo、搜索框、二维码 -->
+	<div class="menu_center">
+		<div class="con">
+			<div class="cen_con">
+
+				<h1><a href="index.html"><img src="images/logo.png" alt="淘宝logo"></a></h1>
+
+				<div class="search_box">
+					<div class="search_before">
+						<ul>
+							<li class="search_tab current first">宝贝</li>
+							<li class="search_tab">天猫</li>
+							<li class="search_tab">店铺</li>
+						</ul>
+					</div>
+
+					<div class="text fl">
+						<div class="search_logo"></div>
+						<input type="text" placeholder="搜索" class="txt">
+						<a class="phone" href="javastript:;"></a>
+					</div>
+
+					<div class="btn fl"><input type="button" value="搜索"></div>
+
+					<div class="search_after">
+						<ul>
+							<li><a href="javastript:;">新款连衣裙</a></li>
+							<li><a href="javastript:;">四件套</a></li>
+							<li><a href="javastript:;">潮流T恤</a></li>
+							<li><a href="javastript:;">时尚女鞋</a></li>
+							<li><a href="javastript:;">短裤</a></li>
+							<li><a href="javastript:;">半身裙</a></li>
+							<li><a href="javastript:;">男士外套</a></li>
+							<li><a href="javastript:;">墙纸</a></li>
+							<li><a href="javastript:;">行车记录仪</a></li>
+							<li><a href="javastript:;">新款男鞋</a></li>
+							<li><a href="javastript:;">耳机</a></li>
+							<li><a href="javastript:;">时尚女包</a></li>
+							<li><a href="javastript:;">沙发</a></li>
+						</ul>
+					</div>
+					
+				</div>
+
+
+				<div class="erweima_box">
+					<div class="close">x</div>
+					<a href="javastript:;">
+						<div class="name">手机淘宝</div>
+						<div class="erweima"><span></span></div>
+						
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 产品分类、幻灯片等 -->
+	<div class="main">
+		<div class="menu_top_box">
+			<div class="menu_top">
+				<div class="main_title">主题市场</div>
+				<div class="title_list">
+					<div class="kid"></div>
+					<ul class="part1">
+						<li><a href="javastript:;">天猫</a></li>
+						<li><a href="javastript:;">聚划算</a></li>
+						<li><a href="javastript:;">天猫超市</a></li>
+					</ul>
+					<span>|</span>
+					<ul class="part2">
+						<li><a href="javastript:;">淘抢购</a></li>
+						<li><a href="javastript:;">电器城</a></li>
+						<li><a href="javastript:;">司法拍卖</a></li>
+						<li><a href="javastript:;">淘宝心选</a></li>
+						<li><a href="javastript:;">兴农脱贫</a></li>
+					</ul>
+					<span>|</span>
+					<ul class="part3">
+						<li><a href="javastript:;">飞猪旅行</a></li>
+						<li><a href="javastript:;">智能生活</a></li>
+						<li><a href="javastript:;">苏宁易购</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu_bottom_box">
+			<div class="left">
+				<ul>
+					<li>
+						<a href="javastript:;">女装</a>
+						<span>/</span>
+						<a href="javastript:;">男装</a>
+						<span>/</span>
+						<a href="javastript:;">内衣</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">鞋靴</a>
+						<span>/</span>
+						<a href="javastript:;">箱包</a>
+						<span>/</span>
+						<a href="javastript:;">配件</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">童装玩具</a>
+						<span>/</span>
+						<a href="javastript:;">孕产</a>
+						<span>/</span>
+						<a href="javastript:;">用品</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">家电</a>
+						<span>/</span>
+						<a href="javastript:;">数码</a>
+						<span>/</span>
+						<a href="javastript:;">手机</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">美妆</a>
+						<span>/</span>
+						<a href="javastript:;">洗护</a>
+						<span>/</span>
+						<a href="javastript:;">保健品</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">珠宝</a>
+						<span>/</span>
+						<a href="javastript:;">眼镜</a>
+						<span>/</span>
+						<a href="javastript:;">手表</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">运动</a>
+						<span>/</span>
+						<a href="javastript:;">户外</a>
+						<span>/</span>
+						<a href="javastript:;">乐器</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">游戏</a>
+						<span>/</span>
+						<a href="javastript:;">动漫</a>
+						<span>/</span>
+						<a href="javastript:;">影视</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">美食</a>
+						<span>/</span>
+						<a href="javastript:;">生鲜</a>
+						<span>/</span>
+						<a href="javastript:;">零食</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">鲜花</a>
+						<span>/</span>
+						<a href="javastript:;">宠物</a>
+						<span>/</span>
+						<a href="javastript:;">农资</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">面料集采</a>
+						<span>/</span>
+						<a href="javastript:;">装修</a>
+						<span>/</span>
+						<a href="javastript:;">建材</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">家具</a>
+						<span>/</span>
+						<a href="javastript:;">家饰</a>
+						<span>/</span>
+						<a href="javastript:;">家纺</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">汽车</a>
+						<span>/</span>
+						<a href="javastript:;">二手车</a>
+						<span>/</span>
+						<a href="javastript:;">用品</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">办公</a>
+						<span>/</span>
+						<a href="javastript:;">DIY</a>
+						<span>/</span>
+						<a href="javastript:;">五金电子</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">百货</a>
+						<span>/</span>
+						<a href="javastript:;">餐厨</a>
+						<span>/</span>
+						<a href="javastript:;">家庭保健</a>
+						<i>&gt;</i>
+					</li>
+					<li>
+						<a href="javastript:;">学习</a>
+						<span>/</span>
+						<a href="javastript:;">卡券</a>
+						<span>/</span>
+						<a href="javastript:;">本地服务</a>
+						<i>&gt;</i>
+					</li>
+				</ul>
+			</div>
+			<div class="center_left">
+				
+				<div class="huandengpian">
+					<ul class="photos">
+						<li class="current_img"><img src="images/huandengpian1.webp" alt=""></li>
+						<li><img src="images/huandengpian2.jpg" alt=""></li>
+						<li><img src="images/huandengpian3.jpg" alt=""></li>
+						<li><img src="images/huandengpian4.jpg" alt=""></li>
+						<li><img src="images/huandengpian5.webp" alt=""></li>
+					</ul>
+					<!-- 向前、向后按钮 -->
+					<div class="prev"></div><span class="prev_txt">&lt;</span>
+					<div class="next"></div><span class="next_txt">&gt;</span>
+					<!-- 下方小圆点 -->
+					<div class="points">
+						<ul>
+							<li class="current"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="background"></div>
+
+					<div class="adv_logo"></div>
+					<div class="like-unlike">
+						<div class="like">喜欢</div>
+						<div class="unlike">不喜欢</div>
+					</div>
+					
+				</div>
+
+
+				<div class="TM">
+					<div class="TM_title">
+						<div class="TM_logo"></div>
+						<h6>理想生活上天猫</h6>
+						<div class="current_page">
+							<span class="current">1</span>
+							<span>/</span>
+							<span>3</span>
+						</div>
+					</div>
+					<ul class="jindutiao">
+						<li class="current"></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="TM_photos">
+						<ul  class="first current">
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_2-1.jpg" alt=""></a></li>
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_2-2.jpg" alt=""></a></li>
+						</ul>
+						<ul>
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_3-1.jpg" alt=""></a></li>
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_3-2.jpg" alt=""></a></li>
+						</ul>
+						<ul>
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_4-1.jpg" alt=""></a></li>
+							<li><a href="javastript:;"><img src="images/TM_huandengpian_4-2.jpg" alt=""></a></li>
+						</ul>
+
+						<div class="prev"></div>
+						<span class="prev_txt">&lt;</span>
+						<div class="next"></div>
+						<span class="next_txt">&gt;</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="center_right">
+				<div class="top"><img src="images/main_center_right_top.webp" alt=""></div>
+				<div class="bottom">
+					<h6>今日热卖</h6>
+					<img src="images/main_center_right_bottom.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="right">
+				<div class="top">
+
+					<div class="member">
+						<div class="nmtx">
+							<div class="nmtx_box"><img src="images/nmtx.jpg" alt="头像"></div>				
+						</div>
+						<div class="name">Hi!&nbsp;&nbsp;你好</div>
+						<div class="club">
+							<a href="javastript:;" class="club_left">
+								<span></span>
+								<div class="txt">领淘金币抵钱</div>
+							</a>
+							<a href="javastript:;" class="club_right">
+								<span></span>
+								<div class="txt">会员俱乐部</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="member_btn">
+						<a href="javastript:;" class="login">登陆</a>
+						<a href="javastript:;">注册</a>
+						<a href="javastript:;">开店</a>
+					</div>
+				</div>
+				<div class="jubao_area">
+					<a href="javastript:;">
+						<span>网上有害信息举报专区</span>
+						<i>&gt;</i>
+					</a>
+				</div>
+
+				<div class="center clearfix">
+					<div class="select">
+						<div class="class class1"><div class="border_bottom current"><span>公告</span></div></div>
+						<div class="class class2"><div class="border_bottom"><span>规则</span></div></div>
+						<div class="class class3"><div class="border_bottom"><span>论坛</span></div></div>
+						<div class="class class4"><div class="border_bottom"><span>安全</span></div></div>
+						<div class="class class5"><div class="border_bottom"><span>公益</span></div></div>
+					</div>
+					<div class="info">
+						<div class="information info1">
+							<h6><a href="javastript:;">95公益周阿里、腾讯等六家公司同台联合做公益</a></h6>
+							<span class="info_left"><a href="javastript:;">淘宝造物节之城市秘密</a></span>
+							<span class="info_right"><a href="javastript:;">聚划算88红包省钱卡</a></span>
+						</div>
+
+						<div class="information info2">
+							<span class="info_left"><a href="javastript:;">新增《淘宝网汽配行业</a></span>
+							<span class="info_right"><a href="javastript:;">《淘宝网区域零售服务</a></span>
+							<span class="info_left"><a href="javastript:;">《淘宝网票务行业管理</a></span>
+							<span class="info_right"><a href="javastript:;">《淘宝网数字娱乐市场</a></span>
+						</div>
+
+						<div class="information info3">
+							<span class="info_left"><a href="javastript:;">淘宝1212大促招商</a></span>
+							<span class="info_right"><a href="javastript:;">在线职业培训招商</a></span>
+							<span class="info_left"><a href="javastript:;">金秋超值购招商</a></span>
+							<span class="info_right"><a href="javastript:;">运营神器年中大促</a></span>
+						</div>
+
+						<div class="information info4">
+							<span class="info_left"><a href="javastript:;">魔豆妈妈公益项目</a></span>
+							<span class="info_right"><a href="javastript:;">让母爱永不打烊！</a></span>
+							<span class="info_left"><a href="javastript:;">卖家注意：风险通报！</a></span>
+							<span class="info_right"><a href="javastript:;">售假获刑又起诉！</a></span>
+						</div>
+
+						<div class="information info5">
+							<span class="info_left"><a href="javastript:;">淘宝公益平台正式更名</a></span>
+							<span class="info_right"><a href="javastript:;">益起来商家招募即将截</a></span>
+							<span class="info_left"><a href="javastript:;">卖家如何设置公益宝贝</a></span>
+							<span class="info_right"><a href="javastript:;">公益机构开店全攻略</a></span>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="bottom">
+					<ul class="itemlists clearfix">
+						<li class="item item1">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">充话费</div>
+							<!--
+							<div class="detail_gn">
+								<div class="gns">
+									<div class="gn1 clearfix">
+										<span>充话费</span>
+										<div class="gn_hid_box">
+											<input type="text" placeholder="请输入手机号码">
+											<input type="text">
+										</div>								
+										
+									</div>
+									<div class="gn2">
+										<span>充流量</span>
+										
+									
+									</div>
+									<div class="gn3">
+										<span>充固话</span>
+										
+										
+									</div>
+									<div class="gn4">
+										<span>充宽带</span>
+										
+											
+									</div>
+									<div class="close_gn">X<span></span></div>
+								</div>
+
+							</div> -->
+						</li>
+						<li class="item item2">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">旅行</div>
+
+						</li>
+						<li class="item item3">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">车险</div>
+						</li>
+						<li class="item item4">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">游戏</div>
+						</li>
+						<li class="item item5">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">彩票</div>
+						</li>
+						<li class="item item6">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">电影</div>
+						</li>
+						<li class="item item7">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">酒店</div>
+						</li>
+						<li class="item item8">
+							<div class="icon"><img src="images/items.png" alt=""></div>
+							<div class="icon_txt">理财</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="AL_APP">
+					<div class="AL_title">
+						<h3 class="al">阿里APP</h3>
+						<a class="more">更多&nbsp;&gt;</a>
+					</div>
+					<ul class="logo_icons">
+						<li class="icon1">
+							<div class="erweima">
+								<div class="erweima_box">
+									<img src="images/logo_icon_erweima1.png" alt="二维码">
+								</div>
+								
+								<span>扫一扫淘宝</span>
+							</div>
+							<a href="javastript:;"><img src="images/taobao.webp" alt=""></a>
+						</li>
+						<li class="icon2">
+							<div class="erweima">
+								<div class="erweima_box">
+									<img src="images/logo_icon_erweima2.png" alt="二维码">
+								</div>
+								
+								<span>扫一扫天猫</span>
+							</div>
+							<a href="javastript:;"><img src="images/tianmao.webp" alt=""></a>
+						</li>
+						<li class="icon3">
+							<div class="erweima">
+								<div class="erweima_box">
+									<img src="images/logo_icon_erweima1.png" alt="二维码">
+								</div>
+								
+								<span>扫一扫支付宝</span>
+							</div>
+							<a href="javastript:;"><img src="images/zhifubao.webp" alt=""></a>
+						</li>
+						<li class="icon4">
+							<div class="erweima">
+								<div class="erweima_box">
+									<img src="images/logo_icon_erweima1.png" alt="二维码">
+								</div>
+								
+								<span>扫一扫钉钉</span>
+							</div>
+							<a href="javastript:;"><img src="images/dingding.webp" alt=""></a>
+						</li>
+						<li class="icon5">
+							<div class="erweima">
+								<div class="erweima_box">
+									<img src="images/logo_icon_erweima1.png" alt="二维码">
+								</div>
+								<span>扫一扫淘小铺</span>
+							</div>
+							<a href="javastript:;"><img src="images/taoxiaopu.webp" alt=""></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+</body>
+</html>

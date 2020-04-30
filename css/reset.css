@@ -1,0 +1,64 @@
+/* 重置样式 */
+
+body,ul,form,input,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	color:#3C3C3C;
+	font-size: 12px;
+}
+
+/* 去掉ul默认小圆点 */
+ul{
+	list-style: none;
+}
+
+/* 去掉a默认下划线 */
+a{
+	text-decoration: none;
+	color:#3C3C3C;
+}
+
+/* 设置em不倾斜 */
+em{
+	font-style: normal;
+}
+
+/* 去掉在IE下图片做链接产生的边框 */
+img{
+	border: 0px;
+}
+
+/* 让h1,h2,h3,h4,h5,h6标签继承body设置的字体大小 */
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 100%;
+}
+
+
+/* 清除浮动、清楚margin-top塌陷 */
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+
+/* 左右浮动 */
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+i{
+	font-style: normal;
+}
